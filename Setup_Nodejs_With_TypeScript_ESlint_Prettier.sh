@@ -85,7 +85,7 @@ echo "import express, { Request, Response } from 'express'
 const app = express()
 
 const HOSTNAME = 'localhost'
-const PORT = 9999
+const PORT = 9696
 
 app.get('/', (req: Request, res: Response) => {
   res.send('Setup dự án Node.js với TypeScript ESLint Prettier thành công!')
