@@ -72,6 +72,7 @@ indent_size = 2
 indent_style = space
 " >> .editorconfig &&
 echo "node_modules/
+.env
 dist/
 " >> .gitignore &&
 echo '{
